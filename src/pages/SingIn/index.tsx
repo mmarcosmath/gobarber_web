@@ -10,8 +10,8 @@ const SingIn: React.FC = () => (
       <img src={logoImg} alt="GoBarber" />
       <form>
         <h1>Faça seu login</h1>
-        <Input type="text" placeholder="Email" icon={FiMail} />
-        <Input type="password" placeholder="Senha" icon={FiLock} />
+        <Input name="email" type="email" placeholder="Email" icon={FiMail} />
+        <Input name="password" type="password" placeholder="Senha" icon={FiLock} />
         <Button type="submit">Entrar</Button>
         <a href="forgot">Esqueci minha senha</a>
       </form>

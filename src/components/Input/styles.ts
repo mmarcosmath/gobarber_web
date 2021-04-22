@@ -8,9 +8,11 @@ export const Container = styled.div`
   min-width: 100%;
   display: flex;
   align-items: center;
+
   & + div {
     margin-top: 8px;
   }
+
   input {
     flex: 1;
     border: 0;
